@@ -1,9 +1,9 @@
 from ultralytics import YOLO
 
 if __name__ == '__main__':
-    model = YOLO("S:/AI/Models/yolo11s.pt")
+    model = YOLO("") # path your YOLO Model
     model.train(
-        data="S:/AI/Datasets/Car and Plate/data.yaml",
+        data="", # path your Data.yaml
         epochs=150,
         imgsz=640,
         batch=4,
