@@ -3,7 +3,7 @@ import cv2 as cv
 import numpy as np
 
 
-model = YOLO("S:/AI/projects/car & plate detector5/weights/best.pt")
+model = YOLO("") # when training finished path your best.pt
 cap = cv.VideoCapture(1)
 
 while True:
